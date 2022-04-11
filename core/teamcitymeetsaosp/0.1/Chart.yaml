@@ -1,31 +1,27 @@
 apiVersion: v2
-appVersion: "3.13.6"
+appVersion: "0.1"
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.7
+  version: 0.1
 deprecated: false
-description: TeamSpeak is software for quality voice communication via the Internet.
+description: testing stuff
 home: https://github.com/truecharts/apps/tree/master/charts/stable/teamspeak3
 icon: https://truecharts.org/_static/img/appicons/teamspeak3.png
 keywords:
-- voice server
-- teamspeak
-- teamspeak3
-- teamspeak server
+- test
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: https://truecharts.org
-name: teamspeak3
+name: teamcitymeetsaosp
 sources:
-- https://hub.docker.com/_/teamspeak
-- https://www.teamspeak.com/en/
+- https://hub.docker.com/jetbrains/teamcity-agent
 type: application
-version: 3.0.11
+version: 0.1
 annotations:
   truecharts.org/catagories: |
-    - voice
+    - test
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
